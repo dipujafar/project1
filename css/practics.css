@@ -5,5 +5,26 @@
 .test{
     color: aqua;
     /* cursor:pointer; */
-    cursor: url(263a.png);
+    cursor: url(263a.png),auto;
+}
+.container{
+    display: flex;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: end; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    }
+.box{
+    background-color: red;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
 }
